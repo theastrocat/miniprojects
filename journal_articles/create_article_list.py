@@ -15,6 +15,7 @@ Output:
 <bucket_subdir>/<article1_name>
 <bucket_subdir>/<article1_name>
 ...
+
 >> article_names.txt
 """
 
