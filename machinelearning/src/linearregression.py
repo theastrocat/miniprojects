@@ -1,7 +1,9 @@
 import numpy as np
 
-class LinearRegression(object):
+class LinearRegressionGD(object):
     """
+    Fit a linear regressor using gradient descent.
+
     Parameters
     ----------
 
@@ -44,3 +46,27 @@ class LinearRegression(object):
 
     def predict(self, X):
         return self.coef_[0] + np.sum(self.coef_[1:] * X)
+
+
+class LinearRegression(object):
+    """
+    Fit linear model.
+
+    Parameters
+    ----------
+    X : numpy array or sparse matrix of shape [n_samples,n_features]
+        Training data
+
+    y : numpy array of shape [n_samples,]
+        Target values
+
+    Returns
+    -------
+    self : returns an instance of self.
+    """
+    def __init__(self):
+        pass
+    def fit(self):
+        pass
+    def predict(self):
+        pass
